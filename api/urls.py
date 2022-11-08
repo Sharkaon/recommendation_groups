@@ -19,4 +19,6 @@ from recommendation_circle.urls import router
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include(router.urls)),
+    path('auth/', include('knox.urls'))
 ]

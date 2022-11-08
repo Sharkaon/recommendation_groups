@@ -1,0 +1,1 @@
+from recommendation_circle.models.recommendation import Recommendation

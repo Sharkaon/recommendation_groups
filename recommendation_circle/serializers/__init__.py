@@ -1,0 +1,1 @@
+from recommendation_circle.serializers.recommendation import RecommendationSerializer
