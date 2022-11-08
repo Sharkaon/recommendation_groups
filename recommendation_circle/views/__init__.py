@@ -1,1 +1,3 @@
+from recommendation_circle.views.circle import CircleViewSet
 from recommendation_circle.views.recommendation import RecommendationViewSet
+from recommendation_circle.views.edition import EditionViewSet
